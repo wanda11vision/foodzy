@@ -2,7 +2,7 @@ import React from 'react'
 let items = [
     {
         photo: "images/juice.webp",
-        name: "5 18 Juice",
+        name: "12 8 Juice",
         rating: "⭐⭐⭐ 2.86",
         rate: "12.50 $",
         rate2: "20.50 $",
@@ -12,7 +12,7 @@ let items = [
         photo: "images/apple.webp",
         name: "Apple",
         rating: "⭐⭐⭐ 3.58",
-        rate: "8.25 $",
+        rate: "08.25 $",
         rate2: "15.25 $",
         detail: "Fresh and crisp apples, perfect for snacking or incorporating into various recipes. Achieve dramatic lashes with this long- lasting and cruelty - free formula.It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain.For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors."
     },
@@ -67,7 +67,7 @@ let items = [
         photo: "images/h3.webp",
         name: "Soft Drinks",
         rating: "⭐⭐⭐ 3.1",
-        rate: "7.50 $",
+        rate: "07.50 $",
         rate2: "12.50 $",
         detail: "Assorted soft drinks in various flavors, perfect for refreshing beverages. Achieve dramatic lashes with this long- lasting and cruelty - free formula.It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain.For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors."
    
@@ -84,7 +84,7 @@ let items = [
         photo: "images/apple.webp",
         name: "Apple",
         rating: "⭐⭐⭐ 3.58",
-        rate: "8.25 $",
+        rate: "08.25 $",
         rate2: "15.25 $",
         detail: "Fresh and crisp apples, perfect for snacking or incorporating into various recipes. Achieve dramatic lashes with this long- lasting and cruelty - free formula.It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain.For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors."
     },
