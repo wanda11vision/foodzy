@@ -24,8 +24,7 @@ function Products({ cart, setCart, setSearch }) {
 
   // 💰 Calculate total dynamically
   const total = cart
-    .reduce((acc, item) => acc + parseFloat(item.rate.replace('$', '')) * item.quantity, 0)
-    .toFixed(2);
+    .reduce((acc, item) => acc + parseFloat(item.rate.replace('$', '')) * item.quantity, 0);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -68,7 +67,43 @@ function Products({ cart, setCart, setSearch }) {
           </div>
 
           {/* Cart Summary */}
-          <div className="border p-4 m-2">
+
+          <div className="border rounded-xl shadow-md p-4 m-2 bg-white">
+            <div className="grid gap-2">
+              <input className='border rounded-md w-full p-2 text-sm focus:ring-2 focus:ring-purple-400 outline-none' placeholder='Enter your Email' />
+              <input className='border rounded-md w-full p-2 text-sm focus:ring-2 focus:ring-purple-400 outline-none' placeholder='Enter Mobile Number' />
+              <input className='border rounded-md w-full p-2 text-sm focus:ring-2 focus:ring-purple-400 outline-none' placeholder='Enter Your Name' />
+              <textarea className='border rounded-md w-full p-2 text-sm focus:ring-2 focus:ring-purple-400 outline-none' placeholder='Enter Full Address'></textarea>
+            </div>
+
+            <h2 className="text-xl font-bold mb-3 mt-3 border-b pb-2 text-gray-700">🛒 Cart Summary</h2>
+
+            <div className="flex justify-between text-gray-700 mb-2">
+              <span>Subtotal</span>
+              <span className="font-medium">${total.toFixed(2)}</span>
+            </div>
+
+            <div className="flex justify-between text-green-600 mb-2">
+              <span>Discount (10%)</span>
+              <span>- ${(total * 0.1).toFixed(2)}</span>
+            </div>
+
+            <div className="h-[1px] w-full bg-gray-300 my-3"></div>
+
+            <div className="flex justify-between text-blue-600 font-bold text-lg">
+              <span>Total</span>
+              <span>${(total * 0.9).toFixed(2)}</span>
+            </div>
+
+            <NavLink to="/login">
+              <button className="text-[15px] p-3 w-full mt-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg md:text-lg font-bold transition-transform transform hover:scale-105">
+                Proceed to Checkout
+              </button>
+            </NavLink>
+          </div>
+
+
+          {/* <div className="border p-4 m-2">
             <input className='border w-full m-1 p-1' placeholder='Enter your Email'></input>
             <input className='border w-full m-1 p-1' placeholder='Enter Mobile Number'></input>
             <input className='border w-full m-1 p-1' placeholder='Enter Your Name'></input>
@@ -92,7 +127,9 @@ function Products({ cart, setCart, setSearch }) {
                 Proceed to Checkout
               </button>
             </NavLink>
-          </div>
+          </div> */}
+
+          
         </div>
 
         {/* Products Grid */}
