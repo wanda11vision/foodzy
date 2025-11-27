@@ -67,7 +67,7 @@ function App() {
   ])
   return (
     <div>
-      <RouterProvider router={a} />
+      <RouterProvider basename="/foodzy" router={a} />
     </div>
   )
 }
