@@ -44,30 +44,30 @@ function App() {
   const a = createHashRouter([
 
     {
-      path: '/',
+      path: '',
       element: <Home addcart2={addToCart} cart={cart} search={search} setSearch={setSearch} />
     },
     {
-      path: '/Categories',
+      path: 'Categories',
       element: <Categories addcart2={addToCart} cart={cart} search={search} setSearch={setSearch} />
     },
     {
-      path: '/login',
+      path: 'login',
       element: <Login cart={cart} setSearch={setSearch} />
     },
     {
-      path: '/products',
+      path: 'products',
       element: <Products cart={cart} setSearch={setSearch} setCart={setCart} />
     },
     ,
     {
-      path: '/product/:proname',
+      path: 'product/:proname',
       element: <Product cart={cart} setSearch={setSearch} setCart={setCart} />
     }
   ])
   return (
     <div>
-      <RouterProvider basename="/foodzy" router={a} />
+      <RouterProvider  router={a} />
     </div>
   )
 }
