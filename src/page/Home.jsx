@@ -22,11 +22,11 @@ function Home({ addcart2, search, cart, setSearch }) {
 
   // Slider database
   const sliderData = [
-    { img: 'images/laptop.webp', text: 'Best Laptops 2025', text2: 'Starting at $999 - Exclusive offer this week!' },
-    { img: 'images/h1.webp', text: 'Latest Gadgets', text2: 'Check out newest frames' },
-    { img: 'images/h2.webp', text: 'Smart Accessories', text2: 'Upgrade your Decorations' },
-    { img: 'images/h3.webp', text: 'Top Deals', text2: 'Grab the best discounts' },
-    { img: 'images/b2.png', text: 'Fashion Sale', text2: 'Trendy outfits at great prices' },
+    { img: 'images/choco.webp', text: 'Best deals !!!', text2: 'Starting at $99 - Exclusive offer this week!' },
+    { img: 'images/h1.webp', text: 'Latest items', text2: 'Check out natural foodss' },
+    { img: 'images/h2.webp', text: 'Daily Refreshments ', text2: 'Upgrade your morning moods' },
+    { img: 'images/h3.webp', text: 'Top Deals on Drinks', text2: 'Grab the best discounts' },
+    { img: 'images/f4.webp', text: 'Fresh feels', text2: 'Trendy fruits at great prices' },
   ];
 
 

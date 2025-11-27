@@ -9,10 +9,10 @@ function Nav({ cart,setSearch  }) {
     return (
         <div className='h-[10%] bg-gray-50 border-2 fixed z-10 w-[100%] flex items-center justify-around'>
             <ul className='w-[20%]'>
-                <NavLink to={'/'}><li className='text-[20px] md:text-4xl font-bold text-orange-500 '>Shopify</li></NavLink>
+                <NavLink to={'/'}><li className='text-[20px] md:text-4xl font-bold text-yellow-600 '>Foodzy</li></NavLink>
             </ul>
 
-            <input className='h-[30%]  md:h-[70%] w-[40%] md:w-[30%] text-[10px] border md:border-[3px] md:rounded border-blue-400 md:border-blue-400 p-2  ' placeholder='search for a product...'
+            <input className='h-[30%]  md:h-[70%] w-[40%] md:w-[30%] text-[15px] border md:border-[3px] md:rounded border-blue-400 md:border-blue-400 p-2  ' placeholder='search for a product...'
                 onChange={(e) => setSearch(e.target.value)} ></input>
 
 
