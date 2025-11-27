@@ -59,7 +59,6 @@ function App() {
       path: 'products',
       element: <Products cart={cart} setSearch={setSearch} setCart={setCart} />
     },
-    ,
     {
       path: 'product/:proname',
       element: <Product cart={cart} setSearch={setSearch} setCart={setCart} />

@@ -2,7 +2,7 @@ import React from 'react'
 let items = [
     {
         photo: "images/juice.webp",
-        name: "Juice",
+        name: "5 18 Juice",
         rating: "⭐⭐⭐ 2.86",
         rate: "12.50 $",
         rate2: "20.50 $",
